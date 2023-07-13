@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SurveyResultActivity"
+    android:background="@color/app_background">
+
+    <TextView
+        android:id="@+id/puan_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test sonucunuz: "
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf = "parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/uyari_text_view_result"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/uyari_text_view_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uyari"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/puan_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/tekrar_baslat_buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekrar Başlat"
+        android:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/uyari_text_view_result"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

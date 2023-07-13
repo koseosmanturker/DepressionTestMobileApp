@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SurveyFourthActivity"
+    android:background="@color/app_background">
+
+    <TextView
+        android:id="@+id/title_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_four"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_twentythree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/title_four"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_twentythree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_twenty_three"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question23_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question23_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question23_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question23_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question23_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_twentyfour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_twentythree"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_twentyfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_twenty_four"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question24_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question24_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question24_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question24_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question24_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_twentyfive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_twentyfour"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_twentyfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_twenty_five"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question25_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question25_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question25_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question25_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question25_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/results_page_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_color"
+        android:text="Sonuçlar"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_twentyfive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

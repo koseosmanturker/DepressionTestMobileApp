@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DepressionTest</string>
+    <string name="yonerge">Yönergeler: Geçtiğimiz hafta içinde bugünü de dahil ederek, her bir belirtiyi ne kadar yaşadığınızı belirtmek için size uygun olan butonu seçiniz</string>
+    <string name="title_one">Düşünceler ve Duygular</string>
+    <string name="question_one">1. Üzüntülü ya da neşesiz hissetmek</string>
+    <string name="question_two">2. Mutsuz ya da umutsuz hissetmek</string>
+    <string name="question_three">3. Ağlama nöbetleri ya da ağlamaklı olmak</string>
+    <string name="question_four">4. Cesaretsiz hissetmek</string>
+    <string name="question_five">5. Umutsuz hissetmek</string>
+    <string name="question_six">6. Düşük özsaygı</string>
+    <string name="question_seven">7. Değersiz ya da yetersiz hissetmek</string>
+    <string name="question_eight">8. Suçluluk ya da utanç</string>
+    <string name="question_nine">9. Kendinizi eleştirmek ya da kendinizi suçlamak</string>
+    <string name="question_ten">10. Karar vermede güçlük</string>
+    <string name="title_two">Etkinlikler ve Kişisel İlişkiler</string>
+    <string name="question_eleven">11. Aile, arkadaşlar ve iş arkadaşlarına yönelik ilgi kaybı</string>
+    <string name="question_twelve">12. Yalnızlık</string>
+    <string name="question_thirteen">13. Aile ya da arkadaşlarla daha az zaman geçirmek</string>
+    <string name="question_fourteen">14. Motivasyon eksikliği</string>
+    <string name="question_fifteen">15. İşyerinde veya diğer etkinliklerde ilgi kaybı</string>
+    <string name="question_sixteen">16. İş veya diğer etkinliklerden kaçınmak</string>
+    <string name="question_seventeen">17. Yaşamdan zevk alma ve tatmin olmanın kaybı</string>
+    <string name="title_three">Fiziksel Belirtiler</string>
+    <string name="question_eighteen">18. Yorgun hissetmek</string>
+    <string name="question_nineteen">19. Uykuya dalmada güçlük ya da çok fazla uyumak</string>
+    <string name="question_twenty">20. Azalmış ya da artmış iştah</string>
+    <string name="question_twenty_one">21. Cinsel istek kaybı</string>
+    <string name="question_twenty_two">22. Sağlığınız hakkında endişelenmek</string>
+    <string name="title_four">İntihar İsteği</string>
+    <string name="question_twenty_three">23. İntihar düşünceniz var mı?</string>
+    <string name="question_twenty_four">24. Yaşamınızı sona erdirmek ister misiniz?</string>
+    <string name="question_twenty_five">25. Kendinize zarar vermek için bir planınız var mı?</string>
+    <string name="hiç_button">Hiç</string>
+    <string name="biraz_button">Biraz</string>
+    <string name="orta_button">Orta</string>
+    <string name="cok_fazla_button">Çok</string>
+    <string name="asiri_derece_button">Aşırı</string>
+    <string name="uyari">Puanı düzenli olarak 10\'un üzerinde olan kişiler profesyonel yardımdan yararlanabilirler. İntihar eğilimli kişiler bir ruh sağlığı uzmanından acil yardım almalıdırlar.</string>
+    <string name="puanlar">0 - 5 puan\n6 - 10 puan\n11 - 25 paun\n26 - 50 puan\n51 - 75 puan\n76 - 100 puan</string>
+    <string name="depresyon_duzeyi">Depresyon yok\nNormal ama mutsuz\nHafif depresyon\nOrta depresyon\nAğır depresyon\nAşırı Depresyon</string>
+    <string name="teste_basla">Teste Başla</string>
+    <string name="kaydedilen_sonuclar">Kaydedilen Sonuçlar</string>
+
+</resources>

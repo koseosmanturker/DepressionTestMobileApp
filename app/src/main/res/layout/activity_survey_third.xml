@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SurveyThirdActivity"
+    android:background="@color/app_background">
+
+    <TextView
+        android:id="@+id/title_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_three"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_eighteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/title_three"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_eighteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_eighteen"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question18_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question18_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question18_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question18_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question18_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_nineteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_eighteen"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_nineteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_nineteen"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question19_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question19_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question19_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question19_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question19_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_twenty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_nineteen"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_twenty"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question20_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question20_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question20_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question20_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question20_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_twentyone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_twenty"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_twentyone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_twenty_one"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question21_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question21_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question21_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question21_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question21_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_twentytwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_twentyone"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/question_twentytwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_twenty_two"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp">
+
+            <CheckBox
+                android:id="@+id/question22_choice0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiç_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question22_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biraz_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question22_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orta_button"
+                android:layout_weight="1"/>
+            <CheckBox
+                android:id="@+id/question22_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cok_fazla_button"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/question22_choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asiri_derece_button"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/third_to_fourth_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_color"
+        android:text="Sonraki"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_twentytwo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
